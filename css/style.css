@@ -1,0 +1,207 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'PT Sans', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+/********************************/
+.header-section{
+	width: 100%;
+	padding: 40px 0px; 
+	background: #fcdb00;
+}
+.header-section .bg-light{
+	background: transparent !important;
+}
+.header-section .navbar-nav{
+	margin-right: 8%;
+}
+.header-section .navbar-nav .nav-link{
+	font-size: 21px;
+	font-weight: 800;
+	margin-left: 64px;
+	color: rgb(0, 0, 0);
+}
+.header-section .banner{
+	width: 100%;
+	padding: 60px 0px;
+}
+.header-section .banner .text-inner{
+	width: 100%;
+	padding: 65px 0px;
+}
+.header-section .banner .text-inner h1 {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #010101;
+}
+.header-section .banner .text-inner h5{
+	font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: #313841;
+}
+.header-section .banner .text-inner p{
+	font-size: 16px;
+    line-height: 20px;
+    color: #555555;
+    margin-bottom: 30px;
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  	.header-section .navbar-nav .nav-link{
+		font-size: 18px;
+		font-weight: 700;
+		margin-left: 55px;
+		margin-top: 1px;
+		color: rgb(0, 0, 0);
+	}
+	.header-section .banner{
+		width: 100%;
+		padding: 40px 0px;
+	}
+	.header-section .banner .text-inner{
+		width: 100%;
+		padding: 60px 0px;
+	}
+	.header-section .banner .text-inner h1 {
+	    font-size: 26px;
+	    line-height: 36px;
+	    font-weight: 700;
+	    margin-bottom: 12px;
+	    color: #010101;
+	}
+	.header-section .banner .text-inner h5{
+		font-size: 16px;
+	    font-weight: 600;
+	    margin-bottom: 12px;
+	    color: #313841;
+	}
+	.header-section .banner .text-inner p{
+		font-size: 13px;
+	    line-height: 18px;
+	    color: #555555;
+	    margin-bottom: 30px;
+	}
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  	.header-section .navbar-nav .nav-link{
+		font-size: 18px;
+		font-weight: 700;
+		margin-left: 55px;
+		margin-top: 1px;
+		color: rgb(0, 0, 0);
+	}
+	.header-section .banner{
+		width: 100%;
+		padding: 40px 0px;
+	}
+	.header-section .banner .text-inner{
+		width: 100%;
+		padding: 60px 0px;
+	}
+	.header-section .banner .text-inner h1 {
+	    font-size: 26px;
+	    line-height: 36px;
+	    font-weight: 700;
+	    margin-bottom: 12px;
+	    color: #010101;
+	}
+	.header-section .banner .text-inner h5{
+		font-size: 16px;
+	    font-weight: 600;
+	    margin-bottom: 12px;
+	    color: #313841;
+	}
+	.header-section .banner .text-inner p{
+		font-size: 13px;
+	    line-height: 18px;
+	    color: #555555;
+	    margin-bottom: 30px;
+	}
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  	
+	.header-section{
+		width: 100%;
+		padding: 5px 0px; 
+		background: #fcdb00;
+	}
+	.header-section .bg-light{
+		background: transparent !important;
+	}
+	.header-section .navbar-nav{
+		margin-right: 8%;
+	}
+	.header-section .navbar-nav .nav-link{
+		font-size: 21px;
+		font-weight: 800;
+		margin-left: 64px;
+		color: rgb(0, 0, 0);
+	}
+  	.header-section .navbar-nav .nav-link{
+		font-size: 18px;
+		font-weight: 700;
+		margin-left: 55px;
+		margin-top: 1px;
+		color: rgb(0, 0, 0);
+	}
+	.header-section .banner{
+		width: 100%;
+		padding: 40px 0px 0px;
+	}
+	.header-section .banner .text-inner{
+		width: 100%;
+		text-align: center;
+		padding: 40px 0px;
+		margin-bottom: 25px;
+	}
+	.header-section .banner .text-inner h1 {
+	    font-size: 22px;
+	    line-height: 15px;
+	    font-weight: 700;
+	    margin-bottom: 20px;
+	    color: #010101;
+	}
+	.header-section .banner .text-inner h5{
+		font-size: 16px;
+	    font-weight: 600;
+	    margin-bottom: 15px;
+	    color: #313841;
+	}
+	.header-section .banner .text-inner p{
+		font-size: 12px;
+	    line-height: 18px;
+	    color: #555555;
+	    margin-bottom: 80px;
+	}
+}
