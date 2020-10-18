@@ -75,7 +75,7 @@ a, a:hover{
 }
 .feature .title{
 	width: 100%;
-	padding: 0px 0px 40px;
+	padding: 0px 0px 60px;
 	text-align: center;
 }
 .feature .title h1{
@@ -99,6 +99,15 @@ a, a:hover{
 	color: #000;
 	margin-right: 20px;
 }
+.feature .feature-inner .media .fa-bookmark-o{
+	margin-right: 32px;
+}
+.feature .feature-inner .media .fa-lemon-o{
+	margin-right: 28px;
+}
+.feature .feature-inner .media .fa-tablet{
+	margin-right: 40px;
+}
 .feature .feature-inner .media-body h5{
 	font-size: 20px;
 	font-weight: 600;
@@ -107,6 +116,7 @@ a, a:hover{
 .feature .feature-inner .media-body p{
 	font-size: 16px;
 	color: #898989;
+	margin-bottom: 60px;
 	/*line-height: 30px;*/
 }
 /* 
@@ -279,7 +289,7 @@ a, a:hover{
   	
 	.header-section{
 		width: 100%;
-		padding: 5px 0px; 
+		padding: 10px 0px 80px; 
 		background: #fcdb00;
 	}
 	.header-section .bg-light{
@@ -303,13 +313,13 @@ a, a:hover{
 	}
 	.header-section .banner{
 		width: 100%;
-		padding: 40px 0px 0px;
+		padding: 0px;
 	}
 	.header-section .banner .text-inner{
 		width: 100%;
 		text-align: center;
 		padding: 40px 0px;
-		margin-bottom: 25px;
+		margin-bottom: 20px;
 	}
 	.header-section .banner .text-inner h1 {
 	    font-size: 22px;
@@ -328,7 +338,27 @@ a, a:hover{
 		font-size: 12px;
 	    line-height: 18px;
 	    color: #555555;
-	    margin-bottom: 80px;
+	    margin-bottom: 60px;
+	}
+	.feature{
+		padding: 60px 0px;
+	}
+	.feature .title{
+		width: 100%;
+		padding: 0px 0px 40px;
+		text-align: center;
+	}
+	.feature .title h1{
+		font-size: 25px;
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+	.feature .title p{
+		font-size: 16px;
+		line-height: 25px;
+		font-weight: 500;
+	    color: #313841;
+	    padding: 0px 8px;
 	}
 	.feature .feature-inner{
 		width: 100%;
@@ -341,6 +371,18 @@ a, a:hover{
 		color: #000;
 		margin-right: 20px;
 	}
+	.feature .feature-inner .media .fa-bookmark-o{
+		margin-right: 32px;
+	}
+	.feature .feature-inner .media .fa-lemon-o{
+		margin-right: 22px;
+	}
+	.feature .feature-inner .media .fa-tablet{
+		margin-right: 30px;
+	}
+	.feature .feature-inner .media .fa-code{
+		margin-right: 15px;
+	}
 	.feature .feature-inner .media-body h5{
 		font-size: 20px;
 		font-weight: 600;
@@ -350,6 +392,7 @@ a, a:hover{
 		font-size: 16px;
 		color: #898989;
 		/*line-height: 30px;*/
+		margin-bottom: 35px;
 	}
 
 }
