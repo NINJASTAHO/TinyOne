@@ -418,13 +418,19 @@ a, a:hover{
 		margin-right: 20px;
 	}
 	.feature .feature-inner .media .fa-bookmark-o{
-		margin-right: 35px;
+		margin-right: 36px;
 	}
 	.feature .feature-inner .media .fa-envelope-o{
-		margin-right: 20px;
+		margin-right: 23px;
 	}
-	.feature .feature-inner .media .fa-code{
-		margin-right: 15px;
+	.feature .feature-inner .media .fa-folder-o{
+		margin-right: 27px;
+	}
+	.feature .feature-inner .media .fa-lemon-o{
+		margin-right: 30px;
+	}
+	.feature .feature-inner .media .fa-tablet{
+		margin-right: 40px;
 	}
 	.feature .feature-inner .media-body h5{
 		font-size: 20px;
